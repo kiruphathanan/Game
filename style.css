@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+   background-color: teal;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   line-height: 1.6;
+}
+.logo
+{
+    font-size: 70px;
+    font-weight: 100;
+}
+.button
+{
+    background-color: black;
+    color: white;
+    height:75px ;
+    width: 140px;
+    padding:10px 15px ;
+    text-align:center;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 40%;
+}
+.button:hover
+{
+    background-color: white;
+    color: black;
+}
+.input_container{
+    display: flex;
+
+
+}
+#number{
+    height: 30px;
+    width: 200px;
+    line-height: 1.2;
+    border: 3px solid black;
+}
+#submit{
+    position: relative;
+    background-color: aqua;
+    color: black;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    left: -180px;
+    border: 3px solid white;
+}
+#font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#lives-text{
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+    left:-80px ;
+    position: relative;
+    border:3px solid black;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#message{
+    position: relative;
+    display: none;
+    font-size: 1.5em;
+    background-color: brown;
+    color: black;
+    padding: 5px 15px;
+    left: -50px;
+    top: 150px;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+#lose{
+    position: relative;
+    width: 800px;
+}
